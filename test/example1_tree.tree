@@ -2,164 +2,23 @@
   +-OBJECT
     |-object_starts {
     |-MEMBERS
-    | +-PAIR
-    |   |-v_string "quiz"
-    |   |-v_pair :
-    |   +-VALUE
-    |     +-OBJECT
-    |       |-object_starts {
-    |       |-MEMBERS
-    |       | |-PAIR
-    |       | | |-v_string "sport"
-    |       | | |-v_pair :
-    |       | | +-VALUE
-    |       | |   +-OBJECT
-    |       | |     |-object_starts {
-    |       | |     |-MEMBERS
-    |       | |     | +-PAIR
-    |       | |     |   |-v_string "q1"
-    |       | |     |   |-v_pair :
-    |       | |     |   +-VALUE
-    |       | |     |     +-OBJECT
-    |       | |     |       |-object_starts {
-    |       | |     |       |-MEMBERS
-    |       | |     |       | |-PAIR
-    |       | |     |       | | |-v_string "question"
-    |       | |     |       | | |-v_pair :
-    |       | |     |       | | +-VALUE
-    |       | |     |       | |   +-v_string "Which one is correct team name in NBA?"
-    |       | |     |       | |-comma ,
-    |       | |     |       | +-MEMBERS
-    |       | |     |       |   |-PAIR
-    |       | |     |       |   | |-v_string "options"
-    |       | |     |       |   | |-v_pair :
-    |       | |     |       |   | +-VALUE
-    |       | |     |       |   |   +-ARRAY
-    |       | |     |       |   |     |-array_starts [
-    |       | |     |       |   |     |-ELEMENTS
-    |       | |     |       |   |     | |-VALUE
-    |       | |     |       |   |     | | +-v_string "New York Bulls"
-    |       | |     |       |   |     | |-comma ,
-    |       | |     |       |   |     | +-ELEMENTS
-    |       | |     |       |   |     |   |-VALUE
-    |       | |     |       |   |     |   | +-v_string "Los Angeles Kings"
-    |       | |     |       |   |     |   |-comma ,
-    |       | |     |       |   |     |   +-ELEMENTS
-    |       | |     |       |   |     |     |-VALUE
-    |       | |     |       |   |     |     | +-v_string "Golden State Warriros"
-    |       | |     |       |   |     |     |-comma ,
-    |       | |     |       |   |     |     +-ELEMENTS
-    |       | |     |       |   |     |       +-VALUE
-    |       | |     |       |   |     |         +-v_string "Huston Rocket"
-    |       | |     |       |   |     +-array_ends ]
-    |       | |     |       |   |-comma ,
-    |       | |     |       |   +-MEMBERS
-    |       | |     |       |     +-PAIR
-    |       | |     |       |       |-v_string "answer"
-    |       | |     |       |       |-v_pair :
-    |       | |     |       |       +-VALUE
-    |       | |     |       |         +-v_string "Huston Rocket"
-    |       | |     |       +-object_ends }
-    |       | |     +-object_ends }
-    |       | |-comma ,
-    |       | +-MEMBERS
-    |       |   +-PAIR
-    |       |     |-v_string "maths"
-    |       |     |-v_pair :
-    |       |     +-VALUE
-    |       |       +-OBJECT
-    |       |         |-object_starts {
-    |       |         |-MEMBERS
-    |       |         | |-PAIR
-    |       |         | | |-v_string "q1"
-    |       |         | | |-v_pair :
-    |       |         | | +-VALUE
-    |       |         | |   +-OBJECT
-    |       |         | |     |-object_starts {
-    |       |         | |     |-MEMBERS
-    |       |         | |     | |-PAIR
-    |       |         | |     | | |-v_string "question"
-    |       |         | |     | | |-v_pair :
-    |       |         | |     | | +-VALUE
-    |       |         | |     | |   +-v_string "5 + 7 = ?"
-    |       |         | |     | |-comma ,
-    |       |         | |     | +-MEMBERS
-    |       |         | |     |   |-PAIR
-    |       |         | |     |   | |-v_string "options"
-    |       |         | |     |   | |-v_pair :
-    |       |         | |     |   | +-VALUE
-    |       |         | |     |   |   +-ARRAY
-    |       |         | |     |   |     |-array_starts [
-    |       |         | |     |   |     |-ELEMENTS
-    |       |         | |     |   |     | |-VALUE
-    |       |         | |     |   |     | | +-v_string "10"
-    |       |         | |     |   |     | |-comma ,
-    |       |         | |     |   |     | +-ELEMENTS
-    |       |         | |     |   |     |   |-VALUE
-    |       |         | |     |   |     |   | +-v_string "11"
-    |       |         | |     |   |     |   |-comma ,
-    |       |         | |     |   |     |   +-ELEMENTS
-    |       |         | |     |   |     |     |-VALUE
-    |       |         | |     |   |     |     | +-v_string "12"
-    |       |         | |     |   |     |     |-comma ,
-    |       |         | |     |   |     |     +-ELEMENTS
-    |       |         | |     |   |     |       +-VALUE
-    |       |         | |     |   |     |         +-v_string "13"
-    |       |         | |     |   |     +-array_ends ]
-    |       |         | |     |   |-comma ,
-    |       |         | |     |   +-MEMBERS
-    |       |         | |     |     +-PAIR
-    |       |         | |     |       |-v_string "answer"
-    |       |         | |     |       |-v_pair :
-    |       |         | |     |       +-VALUE
-    |       |         | |     |         +-v_string "12"
-    |       |         | |     +-object_ends }
-    |       |         | |-comma ,
-    |       |         | +-MEMBERS
-    |       |         |   +-PAIR
-    |       |         |     |-v_string "q2"
-    |       |         |     |-v_pair :
-    |       |         |     +-VALUE
-    |       |         |       +-OBJECT
-    |       |         |         |-object_starts {
-    |       |         |         |-MEMBERS
-    |       |         |         | |-PAIR
-    |       |         |         | | |-v_string "question"
-    |       |         |         | | |-v_pair :
-    |       |         |         | | +-VALUE
-    |       |         |         | |   +-v_string "12 - 8 = ?"
-    |       |         |         | |-comma ,
-    |       |         |         | +-MEMBERS
-    |       |         |         |   |-PAIR
-    |       |         |         |   | |-v_string "options"
-    |       |         |         |   | |-v_pair :
-    |       |         |         |   | +-VALUE
-    |       |         |         |   |   +-ARRAY
-    |       |         |         |   |     |-array_starts [
-    |       |         |         |   |     |-ELEMENTS
-    |       |         |         |   |     | |-VALUE
-    |       |         |         |   |     | | +-v_string "1"
-    |       |         |         |   |     | |-comma ,
-    |       |         |         |   |     | +-ELEMENTS
-    |       |         |         |   |     |   |-VALUE
-    |       |         |         |   |     |   | +-v_string "2"
-    |       |         |         |   |     |   |-comma ,
-    |       |         |         |   |     |   +-ELEMENTS
-    |       |         |         |   |     |     |-VALUE
-    |       |         |         |   |     |     | +-v_string "3"
-    |       |         |         |   |     |     |-comma ,
-    |       |         |         |   |     |     +-ELEMENTS
-    |       |         |         |   |     |       +-VALUE
-    |       |         |         |   |     |         +-v_string "4"
-    |       |         |         |   |     +-array_ends ]
-    |       |         |         |   |-comma ,
-    |       |         |         |   +-MEMBERS
-    |       |         |         |     +-PAIR
-    |       |         |         |       |-v_string "answer"
-    |       |         |         |       |-v_pair :
-    |       |         |         |       +-VALUE
-    |       |         |         |         +-v_string "4"
-    |       |         |         +-object_ends }
-    |       |         +-object_ends }
-    |       +-object_ends }
+    | |-PAIR
+    | | |-v_string "fruit"
+    | | |-v_pair :
+    | | +-VALUE
+    | |   +-v_string "Apple"
+    | |-comma ,
+    | +-MEMBERS
+    |   |-PAIR
+    |   | |-v_string "size"
+    |   | |-v_pair :
+    |   | +-VALUE
+    |   |   +-v_string "Large"
+    |   |-comma ,
+    |   +-MEMBERS
+    |     +-PAIR
+    |       |-v_string "color"
+    |       |-v_pair :
+    |       +-VALUE
+    |         +-v_string "Red"
     +-object_ends }
